@@ -14,10 +14,11 @@ O usuário pode gerar combinações aleatórias de óculos, camisas, casacos, ca
 
 ## Icon do App
 <img width="151" height="151" alt="Group 1" src="https://github.com/user-attachments/assets/acd8841b-4cdc-4051-979c-e3f1e5ab3991" />
+<img width="77" height="73" alt="image" src="https://github.com/user-attachments/assets/30531285-84c9-41bb-8038-0347026f9782" />
 
 
 ## 📷 Demonstração
-<img width="300" height="523" alt="image" src="https://github.com/user-attachments/assets/479dd7ae-f5ec-486d-aa98-85dddb77f2f9" />
-<img width="300" height="526" alt="image" src="https://github.com/user-attachments/assets/814fc73b-57dc-43e1-aab4-5a6bc39a0156" />
-<img width="294" height="524" alt="image" src="https://github.com/user-attachments/assets/e7307bf1-5c55-4367-a875-923905a5b414" />
+<img width="328" height="721" alt="image" src="https://github.com/user-attachments/assets/4ac01c5c-d2ff-44ed-8b59-125fc4ac161d" />
+<img width="323" height="719" alt="image" src="https://github.com/user-attachments/assets/fd9074a7-908d-47dd-a595-1a8edc937262" />
+<img width="326" height="731" alt="image" src="https://github.com/user-attachments/assets/0482f3ec-f3fc-4563-a95e-5aa823f51378" />
 
