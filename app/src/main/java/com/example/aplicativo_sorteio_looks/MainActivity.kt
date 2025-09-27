@@ -8,6 +8,7 @@ import androidx.compose.foundation.BorderStroke
 import androidx.compose.foundation.Image
 import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.Arrangement
+import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.PaddingValues
 import androidx.compose.foundation.layout.fillMaxSize
@@ -15,6 +16,7 @@ import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.size
+import androidx.compose.foundation.layout.systemBarsPadding
 import androidx.compose.foundation.layout.width
 import androidx.compose.foundation.shape.RoundedCornerShape
 //import androidx.compose.foundation.layout.padding
@@ -39,6 +41,7 @@ import androidx.compose.ui.tooling.preview.Preview
 import com.example.aplicativo_sorteio_looks.ui.theme.AplicativoSorteioLooksTheme
 
 import androidx.compose.ui.unit.dp
+import androidx.core.view.WindowCompat
 
 //import kotlin.random.Random
 //import kotlin.random.nextInt
@@ -46,7 +49,9 @@ import androidx.compose.ui.unit.dp
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        enableEdgeToEdge()
+
+        WindowCompat.setDecorFitsSystemWindows(window, false)
+        // enableEdgeToEdge()
         setContent {
             AplicativoSorteioLooksTheme {
                 SorteioLook()
@@ -95,10 +100,10 @@ fun SorteioLook(modifier: Modifier = Modifier) {
         R.drawable.camisa13
     )
     val calcas = listOf(
-            R.drawable.cal_a_1,
-            R.drawable.cal_a_2,
-            R.drawable.cal_a_3,
-            R.drawable.cal_a_4
+        R.drawable.cal_a_1,
+        R.drawable.cal_a_2,
+        R.drawable.cal_a_3,
+        R.drawable.cal_a_4
     )
     val casacos = listOf(
         R.drawable.casaco_2,
@@ -130,7 +135,12 @@ fun SorteioLook(modifier: Modifier = Modifier) {
         .width(156.dp)
         .height(156.dp)
 
-    Column(modifier = modifier.background(Color(0xFF2F1D30))) {
+    Column(
+        modifier = modifier
+            .background(Color(0xFF2F1D30))
+            .fillMaxSize()
+            .systemBarsPadding()
+    ) {
         Button(
             onClick = {
                 acessorio = (acessorios.indices).random()
@@ -165,7 +175,7 @@ fun SorteioLook(modifier: Modifier = Modifier) {
                 contentDescription = "Acessório",
                 modifier = Modifier
                     .fillMaxWidth(0.6f)  // 60% da largura
-                    .height(90.dp)
+                    .weight(1f)
             )
 
             Image(
@@ -197,7 +207,7 @@ fun SorteioLook(modifier: Modifier = Modifier) {
                 contentDescription = "Tênis",
                 modifier = Modifier
                     .fillMaxWidth(0.6f)
-                    .height(95.dp)
+                    .weight(1f)
             )
         }
     }
