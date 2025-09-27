@@ -12,6 +12,10 @@ O usuário pode gerar combinações aleatórias de óculos, camisas, casacos, ca
 - Jetpack Compose
 - Android Studio
 
+## Icon do App
+<img width="151" height="151" alt="Group 1" src="https://github.com/user-attachments/assets/acd8841b-4cdc-4051-979c-e3f1e5ab3991" />
+
+
 ## 📷 Demonstração
 <img width="300" height="523" alt="image" src="https://github.com/user-attachments/assets/479dd7ae-f5ec-486d-aa98-85dddb77f2f9" />
 <img width="300" height="526" alt="image" src="https://github.com/user-attachments/assets/814fc73b-57dc-43e1-aab4-5a6bc39a0156" />
